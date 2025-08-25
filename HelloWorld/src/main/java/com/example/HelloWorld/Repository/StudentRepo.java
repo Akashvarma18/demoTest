@@ -10,6 +10,7 @@ import java.util.List;
 public interface StudentRepo extends JpaRepository<Student,Integer> {
 
     public List<Student> findAll();
+    /// ////
 
 
 
